@@ -1,4 +1,4 @@
-# mrgru.github.io
+# Trang chính
 
 Trang github io
 
