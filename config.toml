@@ -1,4 +1,4 @@
-baseurl = "http://example.com/"
+baseurl = "https://mrgru.github.io/"
 theme = "hugo-geo"
 themesdir = "themes"
 relativeURLs = false
