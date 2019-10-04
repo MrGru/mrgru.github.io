@@ -1,3 +1,42 @@
-baseURL = "http://example.org/"
+baseurl = "http://example.com/"
+theme = "hugo-geo"
+themesdir = "themes"
+relativeURLs = false
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Gru's Bog"
+disqusShortname = "shortcode-here"
+paginate = 5
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+[params]
+	showglobe = true
+	favicon = "favicon.ico"
+	analytics = "code-here"
+	email = "duan.hitex@gmail.com"
+	profilepic = "img/profilePic.png"
+	title = "MrGru"
+	subtitle = "MY HUGO BLOG"
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/MrGru"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/MD_Gru"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/nguy%E1%BB%85n-ma%CC%A3nh-du%C3%A2%CC%89n-21254382/"
+	[[params.socialbuttons]]
+	faicon = "google-plus"
+	url = "https://plus.google.com/+YourID"
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
