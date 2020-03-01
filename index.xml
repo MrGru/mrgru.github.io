@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>1. Tại sao nên sử dụng Godot</title>
-      <link>https://mrgru.github.io/start-with-godot/</link>
+      <title>1. Vì sao mình lại chọn Godot.</title>
+      <link>https://mrgru.github.io/why-do-i-choose-godot/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mrgru.github.io/start-with-godot/</guid>
-      <description>Bắt đầu với godot Chưa có nội dung gì. Đang cập nhật&amp;hellip;.</description>
+      <guid>https://mrgru.github.io/why-do-i-choose-godot/</guid>
+      <description>Lựa chọn game engine luôn là vấn đề khó khăn đối với mỗi người khi bắt đầu. Qua quá trình sử dụng qua các engine, mình đã nhận thấy Godot khá phù hợp với bản thân, Bắt đầu từ những tiêu chí mà mình cho rằng Godot rất đáng để sử dụng cho các dự án game của bạn so với hàng tá các engine khác như Unity, Unreal, Libgx, Cocos creator, Corona SDK, Game maker, Contruct2D&amp;hellip; Hãy cùng xem qua những thứ khiến cho Godot thực sự đáng để thử và lựa chọn cho việc phát triển game.</description>
     </item>
     
     <item>
