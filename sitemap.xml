@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mrgru.github.io/blog/why-do-i-choose-godot/</loc>
+    <loc>https://mrgru.github.io/blog/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrgru.github.io/blog/</loc>
+    <loc>https://mrgru.github.io/categories/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/tags/engine/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/tags/game/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/tags/game-engine/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/categories/godot-engine/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/tags/mit/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,11 +43,22 @@
   </url>
   
   <url>
-    <loc>https://mrgru.github.io/about/</loc>
+    <loc>https://mrgru.github.io/tags/open-source/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrgru.github.io/categories/</loc>
+    <loc>https://mrgru.github.io/tags/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/blog/why-do-i-choose-godot/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/about/</loc>
   </url>
   
   <url>
@@ -31,10 +67,6 @@
   
   <url>
     <loc>https://mrgru.github.io/search/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mrgru.github.io/tags/</loc>
   </url>
   
 </urlset>
