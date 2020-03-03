@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Thông tin về mình">
+  <meta name="description" content="Trang tìm kiếm bài viết">
   <meta name="author" content="MrGru">
   <meta name="generator" content="Hugo 0.65.3" />
 
@@ -120,25 +120,23 @@
 </header>
 <!-- /navigation -->
 
-<section class="section-sm">
+<section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        
-        <img src="https://mrgru.github.io/images/author.jpg" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
-        
-        <h4 class="widget-title">About Me</h4>
-        <div class="content">
-          <p>Xin đừng tò mò về mình.
-Đơn giản chỉ là blog ghi lại những tìm hiểu của mình về Godot.</p>
-
-        </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div id="search-results"></div>
+        <script id="search-result-template" type="text/x-js-template">
+          <div class="py-4 border-bottom" id="summary-${key}">
+            <h4><a href="${link}">${title}</a></h4>
+            <p>${snippet}</p>
+            ${ isset tags }<p>Tags: ${tags}</p>${ end }
+            ${ isset categories }<p>Categories: ${categories}</p>${ end }
+          </div>
+        </script>
       </div>
     </div>
   </div>
 </section>
-
-
 
 
 <section class="section-sm">

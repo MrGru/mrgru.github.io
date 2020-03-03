@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mrgru.github.io/post/why-do-i-choose-godot/</loc>
+    <loc>https://mrgru.github.io/blog/why-do-i-choose-godot/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrgru.github.io/about/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mrgru.github.io/post/</loc>
+    <loc>https://mrgru.github.io/blog/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,7 +18,19 @@
   </url>
   
   <url>
+    <loc>https://mrgru.github.io/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://mrgru.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mrgru.github.io/search/</loc>
   </url>
   
   <url>
