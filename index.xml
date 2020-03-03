@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MrGru</title>
+    <title>MrGru | Personal Game Blog</title>
     <link>https://mrgru.github.io/</link>
-    <description>Recent content on MrGru</description>
+    <description>Recent content on MrGru | Personal Game Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi-vn</language>
     <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
@@ -13,11 +13,11 @@
     
     <item>
       <title>1. Vì sao mình lại chọn Godot.</title>
-      <link>https://mrgru.github.io/why-do-i-choose-godot/</link>
+      <link>https://mrgru.github.io/post/why-do-i-choose-godot/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mrgru.github.io/why-do-i-choose-godot/</guid>
-      <description>Lựa chọn game engine luôn là vấn đề khó khăn đối với mỗi người khi bắt đầu. Qua quá trình sử dụng qua các engine, mình đã nhận thấy Godot khá phù hợp với bản thân, Bắt đầu từ những tiêu chí mà mình cho rằng Godot rất đáng để sử dụng cho các dự án game của bạn so với hàng tá các engine khác như Unity, Unreal, Libgx, Cocos creator, Corona SDK, Game maker, Contruct2D&amp;hellip; Hãy cùng xem qua những thứ khiến cho Godot thực sự đáng để thử và lựa chọn cho việc phát triển game.</description>
+      <guid>https://mrgru.github.io/post/why-do-i-choose-godot/</guid>
+      <description>Lựa chọn game engine luôn là vấn đề khó khăn đối với mỗi người khi bắt đầu.</description>
     </item>
     
     <item>
