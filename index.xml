@@ -6,10 +6,19 @@
     <description>Recent content on MrGru | Personal Game Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi-vn</language>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mrgru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1. Bắt đầu với Godot.</title>
+      <link>https://mrgru.github.io/blog/start-with-godot/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrgru.github.io/blog/start-with-godot/</guid>
+      <description>1. Tải về và sử dụng godot Địa chỉ tải về và cài đặt godot: https://godotengine.</description>
+    </item>
     
     <item>
       <title>1. Vì sao mình lại chọn Godot.</title>

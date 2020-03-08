@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="vi-vn"><head>
+  <meta charset="utf-8">
+  <title>MrGru | Personal Game Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Bài viết đầu trong series về godot">
+  <meta name="author" content="MrGru">
+  <meta name="generator" content="Hugo 0.65.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://mrgru.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://mrgru.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://mrgru.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://mrgru.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://mrgru.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://mrgru.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://mrgru.github.io/images/favicon.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+      <a class="navbar-brand mobile-view" href="https://mrgru.github.io"><img class="img-fluid"
+          src="https://mrgru.github.io/images/logo.png" alt="MrGru | Personal Game Blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://mrgru.github.io"><img class="img-fluid"
+            src="https://mrgru.github.io/images/logo.png" alt="MrGru | Personal Game Blog"></a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://mrgru.github.io"> Home </a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://mrgru.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://mrgru.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://mrgru.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://mrgru.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/godot-engine"
+          class="text-primary">Godot engine</a>
+        
+        <h2><ol>
+<li>Bắt đầu với Godot.</li>
+</ol></h2>
+        <div class="mb-3 post-meta">
+          <span>By MrGru</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>08 March 2020</span>
+          
+        </div>
+        
+        <img src="https://mrgru.github.io/images/post/post-2/feature.jpg" class="img-fluid w-100 mb-4" alt="
+Bắt đầu với Godot.
+">
+        
+        <div class="content mb-5">
+          <h4 id="1-tải-về-và-sử-dụng-godot">1. Tải về và sử dụng godot</h4>
+<p>Địa chỉ tải về và cài đặt godot:
+<a href="https://godotengine.org/download/">https://godotengine.org/download/</a>
+Godot có thể chạy trên các hệ điều hành: Linux (bản 32 bit, 64 bit), MacOS(64 bit) và Window (32bit, 64 bit). Từ phiên bản 3.2, Godot có hỗ trợ ngôn ngữ C#, sử dụng bản cài Mono version.
+Ngoài ra Godot còn sử dụng cho Server với bản:</p>
+<ul>
+<li>Headless: bản Linux 64-bit chạy trên môi trường không đồ họa người dùng, sử dụng dòng lệnh (command line) để chạy test hoặc export project của bạn.</li>
+<li>Server: Bản build Linux 64 bit của template export chạy mà không có đồ họa hay âm thanh, hữu ích cho việc làm server host cho các game làm với Godot.</li>
+</ul>
+<p>Hiện tại mình sử dụng bản Godot cho window, các hướng dẫn hoặc thực hiện của mình đều sử dụng mỗi trường windows bản 64 bit và sử dụng bản Standard (GDScript).
+Với Godot các bạn chỉ cần tải về giải nén và chạy trực tiếp mà không cần cài đặt.
+Như hình dưới mình tải về bản Godot 3.2. Các bạn có thể thấy kích thước file của Godot rất nhẹ khoảng 62.5MB sau khi giải nén:
+<img src="../../images/post/post-2/download-file.jpg" alt="image"></p>
+<h4 id="2-giao-diện-quản-lý-của-godot">2. Giao diện quản lý của Godot</h4>
+<p>Sau khi tải về hãy mở Godot và cùng khám phá giao diện của Godot.
+Trang đầu tiên khi mở ra là phần Quản lý dự án và&hellip; cái màn hình console (Thứ mình không ưa lắm của Godot).
+<img src="../../images/post/post-2/godot-project-manager.jpg" alt="image"></p>
+<p>Đối với các bạn khi mở lần đầu hoặc ở những lần sau nhưng chưa có dự án nào trong Tab Projects. Sẽ có thêm dialog thông báo bạn có muốn mở Asset Library không.
+<img src="../../images/post/post-2/open-first-time.jpg" alt="image"></p>
+<p>Click vào thì công việc của nó là chuyển qua Tab Templates. Mình sẽ trao đổi về tab này sau. Trước hết cùng xem qua giao diện của tab Project.</p>
+<p>Với tab này bạn có thể xem phiên bản hiện tại, thay đổi ngôn ngữ, xem các Project hiện tại bạn đang có, tìm kiếm lọc project. Các chức năng chính như Tạo mới Project, Xóa, Import thêm, Chạy, Sửa hoặc Đổi tên ở bên phải tương ứng. Các Button ẩn là các button tác động đến Project khi bạn lựa chọn.</p>
+<p>Với Tab Templates bạn có thể tải về các dự án mẫu mã nguồn mở và các demo từ Asset Library để giúp bạn bắt đầu nhanh hơn. Chỉ cần lựa chọn template hoặc demo bạn muốn và tải về, khi hoàn thành chọn install và chọn nơi bạn muốn đặt dự án.
+<img src="../../images/post/post-2/select-folder-for-lib.jpg" alt="image"></p>
+<p>Phần Project Manager này của Godot khá giống với Unity Hub, và phần Templates tương tự với Asset Store của Unity. Tuy nhiên với Template của Godot thì hoàn toàn là miễn phí mọi addons, scripts, tools hay các tài nguyên được người dùng cung cấp trong Asset Library này đều là giấy phép mã nguồn mở (MIT, GPL hoặc Boost Software Licenese). Trong tương lai có thể sẽ có những nơi chứa những Asset có thu phí giúp người dùng có thể kiếm tiền và bán các tài nguyên nhưng sẽ là bên ngoài Asset Library này.
+<img src="../../images/post/post-2/select-folder-for-lib.jpg" alt="image"></p>
+<p>Hình ảnh về Project Manager tương tự nhau giữa các engine: Unity, Cocos Creator
+<img src="../../images/post/post-2/cocos-project-manager.jpg" alt="image"></p>
+<p><img src="../../images/post/post-2/unity-project-manager.jpg" alt="image"></p>
+<h4 id="3-các-nguồn-tài-liệu-học-godot">3. Các nguồn tài liệu học Godot</h4>
+<p>Trước khi bắt đầu với một dự án Godot cũng như tìm hiểu về editor, mình muốn tổng hợp một số nguồn để học và tìm hiểu về Godot. Godot còn khá mới so với các engine khác, tuy nhiên tài liệu và nguồn hỗ trợ vẫn khá nhiều để có thể giúp các bạn tìm hiểu và học hỏi</p>
+<ul>
+<li>
+<p>Trước hết phải kể đến trang chủ của godot:
+Đây là nguồn tài liệu chính thống, cập nhật nhất và tốt nhất. Có một số bản dịch của các ngôn ngữ khác ngoài tiếng Anh. Phần lớn các bài viết của mình đều dựa trên nguồn chính là trên này. Nếu các bạn khá Tiếng Anh, mình khuyên các bạn nên tự tìm hiểu từ nguồn này.
+<a href="https://docs.godotengine.org/en/stable/index.html">https://docs.godotengine.org/en/stable/index.html</a></p>
+</li>
+<li>
+<p>Các kênh hướng dẫn qua video:
+<a href="https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/">GDQuest: Kênh có rất nhiều video hướng dẫn về Godot</a>
+<a href="https://www.youtube.com/channel/UC9DR22-qohBDtZ74R3FxOZg">Emilio: Liên quan nhiều đến VisualScripting</a>
+<a href="https://www.youtube.com/user/gamefromscratch/">Game from Scratch</a>
+<a href="https://www.youtube.com/user/uheartbeast/">HeartBeast</a>
+<a href="https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg">KidsCanCode</a>
+<a href="https://www.youtube.com/channel/UCFK9ZoVDqDgY6KGMcHEloFw">Pigdev</a></p>
+</li>
+<li>
+<p>Kênh trao đổi:
+<a href="https://www.reddit.com/r/godot/">Godot-Reddit</a>
+<a href="https://twitter.com/godotengine">Godot-Twitter</a>
+<a href="https://www.facebook.com/groups/godotengine/">Godot-Facebook</a>
+<a href="https://www.youtube.com/c/GodotEngineOfficial">Godot-Youtube</a>
+<a href="https://discordapp.com/invite/zH7NUgz">Godot-Discord</a>
+<a href="https://github.com/godotengine/">Godot-Github</a>
+<a href="https://godotforums.org/">Godot-Forum</a>
+<a href="https://www.facebook.com/groups/448536245967988/">Godot Việt Nam</a></p>
+</li>
+<li>
+<p>Những người trực tiếp đóng góp cho godot
+<a href="https://twitter.com/reduzio">Juan Linietsky - Cha đẻ của godot</a>
+<a href="https://twitter.com/Akien">Rémi Verchelde - Quản lý dự án godot</a></p>
+</li>
+<li>
+<p>Link tổng hợp: <a href="https://github.com/Calinou/awesome-godot">Awesome-Godot: Tổng hợp bởi Calinou</a>, <a href="https://godot-engine.zeef.com/andre.antonio.schmitz">Nguồn tổng hợp trên Zeef</a></p>
+</li>
+</ul>
+<h4 id="ps-trước-khi-kết-thúc-bài-một-số-hình-ảnh-mang-tính-cà-khịa-khi-so-sánh-độ-nặng-của-các-engine-như-unity-và-cocos-creator">Ps: Trước khi kết thúc bài. Một số hình ảnh mang tính cà khịa khi so sánh độ &ldquo;nặng&rdquo; của các engine như Unity và Cocos Creator:</h4>
+<ul>
+<li>
+<p>File Cài đặt: Với Cocos Creator khoảng hơn 600MB, Unity sử dụng Unity Hub khoảng 50MB
+<img src="../../images/post/post-2/set-up-size.jpg" alt="image"></p>
+</li>
+<li>
+<p>Cài đặt Unity với yêu cầu 5.4GB và Cocos Creator với 1.7GB @@:
+<img src="../../images/post/post-2/unity-size-require.jpg" alt="image"></p>
+</li>
+</ul>
+<p><img src="../../images/post/post-2/cocos-install.jpg" alt="image"></p>
+<p>Cài đặt các engine này đều có license yêu cầu đồng ý:</p>
+<p><img src="../../images/post/post-2/term-of-serivce-unity.jpg" alt="image">
+<img src="../../images/post/post-2/unity-term-of-service.jpg" alt="image">
+<img src="../../images/post/post-2/cocos-install.jpg" alt="image"></p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mrgru" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Đăng ký nhận tin</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          Bạn có thể để lại email đăng ký nhận tin khi có bài viết mới.</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Địa chỉ email của bạn">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <a href="https://mrgru.github.io"><img src="https://mrgru.github.io/images/logo.png" alt="MrGru | Personal Game Blog"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:035****226"><i
+                class="ti-mobile mr-3 text-primary"></i>035****226</a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Hà Nội, Việt Nam</li>
+          <li class="mb-3"><a class="text-dark" href="mailto:contact@mrgru.dev"><i
+                class="ti-email mr-3 text-primary"></i>contact@mrgru.dev</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/godot-engine">Godot engine</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://mrgru.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://mrgru.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://mrgru.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | @2020 <a href="https://mrgru.dev/">MrGru</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://mrgru.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://mrgru.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://mrgru.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://mrgru.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://mrgru.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://mrgru.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://mrgru.github.io/plugins/search/mark.js"></script>
+
+<script src="https://mrgru.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://mrgru.github.io/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-159324655-1', 'auto');
+  ga('send', 'pageview');
+</script></body>
+</html>
